@@ -4,4 +4,4 @@
 
 # WP-ZAPP: Contracts
 
-Set of interfaces used by various WP-ZAPP libraries and modules.
+Set of interfaces used by various WP-ZAPP modules and libraries.
