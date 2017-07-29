@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "WPZAPP\\Installer\\": "src"
+      "WPZAPP\\Contracts\\": "src"
     }
   },
   "require": {
