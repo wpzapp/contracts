@@ -20,7 +20,7 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/wpzapp/installer/issues"
+    "issues": "https://github.com/wpzapp/contracts/issues"
   },
   "autoload": {
     "psr-4": {
