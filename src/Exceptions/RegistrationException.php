@@ -9,14 +9,14 @@
 
 namespace WPZAPP\Contracts;
 
-use WPZAPP\Exceptions\StandardException;
+use WPZAPP\Exceptions\BaseException;
 
 /**
- * Exception class used for registration errors.
+ * Exception thrown when registration or unregistration of a structure fails.
  *
  * @since 1.0.0
  */
-class RegistrationException extends StandardException
+class RegistrationException extends BaseException
 {
 
 }

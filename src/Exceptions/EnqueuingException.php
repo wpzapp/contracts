@@ -9,14 +9,14 @@
 
 namespace WPZAPP\Contracts;
 
-use WPZAPP\Exceptions\StandardException;
+use WPZAPP\Exceptions\BaseException;
 
 /**
- * Exception class used for enqueuing errors.
+ * Exception thrown when enqueuing or dequeuing a structure fails.
  *
  * @since 1.0.0
  */
-class EnqueuingException extends StandardException
+class EnqueuingException extends BaseException
 {
 
 }

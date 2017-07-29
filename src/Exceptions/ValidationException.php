@@ -9,14 +9,14 @@
 
 namespace WPZAPP\Contracts;
 
-use WPZAPP\Exceptions\StandardException;
+use WPZAPP\Exceptions\BaseException;
 
 /**
- * Exception class used for validation errors.
+ * Exception thrown when validation of a structure fails.
  *
  * @since 1.0.0
  */
-class ValidationException extends StandardException
+class ValidationException extends BaseException
 {
 
 }
