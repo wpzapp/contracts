@@ -7,16 +7,16 @@
  * @link    https://wpzapp.org
  */
 
-namespace WPZAPP\Contracts;
+namespace WPZAPP\Contracts\Exception;
 
 use WPZAPP\Exceptions\BaseException;
 
 /**
- * Exception thrown when registration or unregistration of a structure fails.
+ * Exception thrown when enqueuing or dequeuing a structure fails.
  *
  * @since 1.0.0
  */
-class RegistrationException extends BaseException
+class EnqueuingException extends BaseException
 {
 
 }

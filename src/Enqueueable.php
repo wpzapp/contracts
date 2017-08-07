@@ -9,7 +9,7 @@
 
 namespace WPZAPP\Contracts;
 
-use WPZAPP\Contracts\Exceptions\EnqueuingException;
+use WPZAPP\Contracts\Exception\EnqueuingException;
 
 /**
  * Interface for enqueueable structures.

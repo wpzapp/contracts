@@ -7,7 +7,7 @@
  * @link    https://wpzapp.org
  */
 
-namespace WPZAPP\Contracts;
+namespace WPZAPP\Contracts\Exception;
 
 use WPZAPP\Exceptions\BaseException;
 

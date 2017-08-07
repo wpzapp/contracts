@@ -9,7 +9,7 @@
 
 namespace WPZAPP\Contracts;
 
-use WPZAPP\Contracts\Exceptions\RegistrationException;
+use WPZAPP\Contracts\Exception\RegistrationException;
 
 /**
  * Interface for registerable structures.

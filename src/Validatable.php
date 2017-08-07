@@ -9,7 +9,7 @@
 
 namespace WPZAPP\Contracts;
 
-use WPZAPP\Contracts\Exceptions\ValidationException;
+use WPZAPP\Contracts\Exception\ValidationException;
 
 /**
  * Interface for validatable structures.
