@@ -22,9 +22,7 @@ interface Escapable
      *
      * @since 1.0.0
      *
-     * @param int $flags Optional. Escaping flags. Default 0.
-     *
      * @return mixed Escaped version of the structure.
      */
-    public function escape(int $flags = 0);
+    public function escape();
 }
