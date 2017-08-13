@@ -31,5 +31,10 @@
     "php": "^7.0",
     "wpzapp/exceptions": "dev-master",
     "wpzapp/installer": "^1.0"
+  },
+  "extra": {
+    "installer-paths": {
+      "vendor/{$vendor}/{$name}/": ["type:wpzapp-lib"]
+    }
   }
 }
